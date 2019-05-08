@@ -1,0 +1,5 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^localhost$ [NC,OR]
+RewriteCond %{HTTP_HOST} ^localhost$
+RewriteCond %{REQUEST_URI} !acme/public/
+RewriteRule (.*) /acme/public/$1 [L]

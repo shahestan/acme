@@ -1,0 +1,21 @@
+{
+    "name": "ahmad/acme",
+    "authors": [
+        {
+            "name": "Ahmad Salehi",
+            "email": "ahmad_etna@msn.com"
+        }
+    ],
+    "require": {
+        "filp/whoops": "^2.3",
+        "vlucas/phpdotenv": "^3.3.3",
+        "illuminate/database": "5.8.14",
+        "altorouter/altorouter": "1.1.0",
+        "respect/validation": "^1.1",
+        "twig/twig": "^2.0",
+        "duncan3dc/blade": "4.5.0"
+    },
+    "autoload": {
+        "psr-4": { "Acme\\": "src/" }
+    }
+}
